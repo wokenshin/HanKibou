@@ -1,0 +1,6 @@
+framework module HanKibou {
+  umbrella header "HanKibou-umbrella.h"
+
+  export *
+  module * { export * }
+}

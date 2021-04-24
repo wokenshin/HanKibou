@@ -1,0 +1,20 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wokenshin/HanKibou.git'
+#上面两行是我加上的
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HanKibou_Example' do
+  pod 'HanKibou', :path => '../'
+
+  #这里可以添加自己需要依赖的第三方库 比如 AFNetworking、NSMasonry等,
+  #也可以在 Podspec Metadata文件夹下的 .podspec文件中配置，这两处配置一处即可，两处配置的方式和形式有所不同
+  
+  target 'HanKibou_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

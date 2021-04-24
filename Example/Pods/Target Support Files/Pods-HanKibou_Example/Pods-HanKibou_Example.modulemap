@@ -1,0 +1,6 @@
+framework module Pods_HanKibou_Example {
+  umbrella header "Pods-HanKibou_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

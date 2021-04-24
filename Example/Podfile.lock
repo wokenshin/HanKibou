@@ -1,0 +1,16 @@
+PODS:
+  - HanKibou (0.1.0)
+
+DEPENDENCIES:
+  - HanKibou (from `../`)
+
+EXTERNAL SOURCES:
+  HanKibou:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HanKibou: 6c25b4c75e740b7a5982e0a290c3ce7ba7a1cdef
+
+PODFILE CHECKSUM: a1263a1d36c2c6ce00bce79712c185ac736076e4
+
+COCOAPODS: 1.10.1
