@@ -1,5 +1,5 @@
 source 'https://github.com/wokenshin/HanKibou.git'
-#上面两行是我加上的
+#上面1行是我加上的
 
 use_frameworks!
 
